@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lobster+Two&family=Yeseva+One&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Yeseva One', cursive;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.container {
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    display: flex;
+    margin: 15px auto;
+    width: 75%;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url('b.jpg');
+
+}
+
+
+.brand img {
+    width: 70px;
+    border-radius: 100px 100px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-right: 50px;
+
+}
+
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons {
+    margin-top: 13px;
+}
+
+.icons {
+    cursor: pointer;
+}
+
+#myprogressbar {
+    width: 80vw;
+    margin-top: 6px;
+    cursor: pointer;
+
+}
+
+.songcontainer {
+    margin-top: 15px;
+
+}
+
+.songitem {
+    height: 35px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 10px 0px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songitem img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    /* margin-right:20px;
+    margin-left:2px; */
+    border-radius: 33px;
+}
+
+.timestamp {
+    margin: 0 20px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 20vh;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    padding: 0px 20px;
+}
